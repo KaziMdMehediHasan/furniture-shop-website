@@ -50,7 +50,7 @@ body {
   color: var(--mainWhite);
   top: -15%;
   right: -25%;
-  background-color: var(--mainYellow);
+  background-color: rgb(238, 17, 91);
   border-radius: 50%;
   padding: 0.2rem 0.3rem;
   font-size: 0.5rem;
@@ -151,7 +151,7 @@ body {
   /* background-color: var(--mainBlack); */
   position: relative;
   overflow: hidden;
-  /* box-shadow: 0 0 30px rgba(194, 194, 194, 0.164); */
+  /* box-shadow: 0 0 30px rgba(77, 42, 51, 0.795); */
   box-shadow: 0 0 30px rgba(244, 255, 96, 0.171);
 }
 .featured-search-icon{
@@ -204,7 +204,7 @@ body {
 
 /* ##################Partners################# */
 .partners{
-  background:rgb(39, 39, 39)
+  background:rgba(46, 46, 46, 0.219);
 }
 
 .left{
@@ -265,7 +265,7 @@ body {
   background: black;
 }
 .product-color-red{
-  background: red;
+  background: rgb(238, 17, 91);
 }
 .product-color-blue{
   background: blue;
@@ -315,7 +315,9 @@ body {
 
 /* ############End of single product page ##################### */
 
-/* store page  */
+/*############################## store page ###################### */
+
+
 .banner-store{
   height: 75vh;
   background-image: linear-gradient(rgba(255,255,255,0.3),rgba(255,255,255,0.3)),url("../img/pageBcg/storeBcg.jpeg");
@@ -324,5 +326,7 @@ body {
   background-attachment: fixed;
   background-size: cover;
 }
-
-/* end of store page  */
+.cart-total{
+  background-color: rgba(46, 46, 46, 0.219);
+}
+/*######################## end of store page ##########################  */
