@@ -243,20 +243,6 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
-
-/* ################End of Product Page ################# */
-
-/* ##################single product page ##################### */
-
-.banner-single-product{
-  height: 75vh;
-  background-image: linear-gradient(rgba(255,255,255,0.3),rgba(255,255,255,0.3)),url("../img/pageBcg/furniture-banner.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-}
-
 .product-categories-link{
   text-decoration: none;
   color: var(--mainYellow);
@@ -290,6 +276,43 @@ body {
 .product-color-green{
   background: green;
 }
+
+/* ################End of Product Page ################# */
+
+/* ##################single product page ##################### */
+
+.banner-single-product{
+  height: 75vh;
+  background-image: linear-gradient(rgba(255,255,255,0.3),rgba(255,255,255,0.3)),url("../img/pageBcg/furniture-banner.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.btn-sp:hover{
+  background: var(--mainBlack);
+  color: var(--mainYellow);
+  border: none;
+}
+
+.single-product-photo{
+  background-image: linear-gradient(rgba(255, 255, 255, 0.103),rgba(255, 255, 255, 0.226));
+  opacity: 0.5;
+  cursor: pointer;
+  transition: all 0.3s linear;
+  box-sizing: border-box !important;
+}
+
+.single-product-photo:hover{
+  opacity: 1;
+}
+
+.product-info-link:hover{
+  color: var(--mainYellow) !important;
+}
+
+
 /* ############End of single product page ##################### */
 
 /* store page  */
